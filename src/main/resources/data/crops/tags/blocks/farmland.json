@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:farmland",
+    "the_darkness:dark_farmland"
+  ]
+}

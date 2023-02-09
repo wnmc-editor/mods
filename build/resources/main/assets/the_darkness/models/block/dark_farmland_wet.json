@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_darkness:blocks/darkdirt",
+    "up": "the_darkness:blocks/hydrateddarkfarmlandtop",
+    "north": "the_darkness:blocks/darkfarmlandside",
+    "east": "the_darkness:blocks/darkfarmlandside",
+    "south": "the_darkness:blocks/darkfarmlandside",
+    "west": "the_darkness:blocks/darkfarmlandside",
+    "particle": "the_darkness:blocks/darkdirt"
+  },
+  "render_type": "solid"
+}

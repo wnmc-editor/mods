@@ -1,0 +1,10 @@
+{
+  "parent": "the_darkness:custom/template_dark_farmland",
+  "textures": {
+    "all": "the_darkness:blocks/darkdirt",
+    "particle": "the_darkness:blocks/darkdirt",
+    "1": "the_darkness:blocks/hydrateddarkfarmlandtop",
+    "2": "the_darkness:blocks/darkfarmlandside"
+  },
+  "render_type": "cutout_mipped"
+}

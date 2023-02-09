@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "hydrateddarkfarmlandtop",
+        "2": "darkfarmlandside"
+      },
+      "name": "default"
+    }
+  }
+}

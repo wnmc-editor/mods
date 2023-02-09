@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "the_darkness:dark_dirt",
+    "the_darkness:dark_farmland",
+    "the_darkness:dark_farmland_wet"
+  ]
+}
