@@ -1,0 +1,428 @@
+{
+  "mod_elements": [
+    {
+      "name": "DarkDirt",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_dirt"
+    },
+    {
+      "name": "DarkFiberSeeds",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fiber_seeds",
+      "path": "~/crops/seeds"
+    },
+    {
+      "name": "DarkFiberstage0",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fiberstage_0",
+      "path": "~/crops/stages"
+    },
+    {
+      "name": "DarkFiberstage1",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fiberstage_1",
+      "path": "~/crops/stages"
+    },
+    {
+      "name": "DarkFiberstage2",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fiberstage_2",
+      "path": "~/crops/stages"
+    },
+    {
+      "name": "DarkFiberstage3",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fiberstage_3",
+      "path": "~/crops/stages"
+    },
+    {
+      "name": "DarkFiberstage4",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fiberstage_4",
+      "path": "~/crops/stages"
+    },
+    {
+      "name": "DarkFiberUpdateTick",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fiber_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/crops/stages"
+    },
+    {
+      "name": "DarkFiberstage0BlockAdded",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fiberstage_0_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/crops/stages"
+    },
+    {
+      "name": "DarkFiber",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fiber",
+      "path": "~/crops/foods"
+    },
+    {
+      "name": "DarkFiberstage4Loot",
+      "type": "loottable",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fiberstage_4_loot",
+      "path": "~/crops/stages"
+    },
+    {
+      "name": "DarkFiberSeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fiber_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/crops/seeds"
+    },
+    {
+      "name": "Farmland",
+      "type": "tag",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmland",
+      "path": "~/crops/stages"
+    },
+    {
+      "name": "DarkFarmland",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_farmland"
+    },
+    {
+      "name": "DarkFarmlandWet",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_farmland_wet"
+    },
+    {
+      "name": "DarkDirtOnBlockRightClickedWithHoe",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_dirt_on_block_right_clicked_with_hoe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkFarmlandOnBlockRightClickedWithSeeds",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_farmland_on_block_right_clicked_with_seeds",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/crops/stages"
+    },
+    {
+      "name": "DarkGrassOnBlockRightClickedWithShovel",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grass_on_block_right_clicked_with_shovel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkGrass",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grass"
+    },
+    {
+      "name": "DarkPlains",
+      "type": "biome",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_plains"
+    },
+    {
+      "name": "DarkSprite",
+      "type": "livingentity",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_sprite"
+    },
+    {
+      "name": "TheDarkness",
+      "type": "dimension",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_darkness",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "PlayerHurtDarkSprite",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_hurt_dark_sprite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkSpriteLoot",
+      "type": "loottable",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_sprite_loot"
+    },
+    {
+      "name": "FlintAndQuartz",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_and_quartz"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.the_darkness.dark_fiberstage_3": "Dark Fiber",
+      "block.the_darkness.dark_fiberstage_2": "Dark Fiber",
+      "block.the_darkness.dark_farmland": "Dark Farmland",
+      "block.the_darkness.dark_fiberstage_4": "Dark Fiber",
+      "item.the_darkness.the_darkness": "The Darkness Portal Igniter",
+      "block.the_darkness.dark_fiberstage_1": "Dark Fiber",
+      "block.the_darkness.dark_grass": "Dark Grass",
+      "item.the_darkness.dark_sprite_spawn_egg": "Dark Sprite Spawn Egg",
+      "block.the_darkness.dark_fiberstage_0": "Dark Fiber",
+      "item.the_darkness.flint_and_quartz": "Flint And Quartz",
+      "biome.the_darkness.dark_plains": "Dark Plains",
+      "entity.the_darkness.dark_sprite": "Dark Sprite",
+      "item.the_darkness.dark_fiber_seeds": "Dark Fiber Seeds",
+      "block.the_darkness.dark_dirt": "Dark Dirt",
+      "block.the_darkness.dark_farmland_wet": "Dark Farmland Wet",
+      "item.the_darkness.dark_fiber": "Dark Fiber"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "crops",
+        "children": [
+          {
+            "name": "seeds",
+            "children": []
+          },
+          {
+            "name": "stages",
+            "children": []
+          },
+          {
+            "name": "foods",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "the_darkness",
+    "modName": "The Darkness",
+    "version": "1.0.0",
+    "description": "The Darkness adds a new dimension, its mobs and structures.",
+    "author": "The White Ninja MC",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.thedarkness",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

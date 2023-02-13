@@ -1,0 +1,130 @@
+{
+  "_fv": 34,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Dark Sprite",
+    "mobLabel": "",
+    "mobModelName": "Modeldark_sprite_entity",
+    "mobModelTexture": "dark_sprite_skin.png",
+    "mobModelGlowTexture": "dark_sprite_skin.png",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -16777165,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -16711681,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "ARTHROPOD",
+    "attackStrength": 2,
+    "attackKnockback": 0.2,
+    "knockbackResistance": 0.30000000000000004,
+    "movementSpeed": 0.30000000000000004,
+    "armorBaseValue": 1.0,
+    "trackingRange": 48,
+    "followRange": 32,
+    "health": 32,
+    "xpAmount": 7,
+    "waterMob": false,
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": true,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": "Blocks.SCULK"
+    },
+    "livingSound": {
+      "value": "entity.phantom.ambient"
+    },
+    "hurtSound": {
+      "value": "entity.phantom.hurt"
+    },
+    "deathSound": {
+      "value": "entity.phantom.death"
+    },
+    "stepSound": {
+      "value": "entity.phantom.flap"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "SOUL"
+    },
+    "particleSpawningShape": "Plane",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasAI": true,
+    "aiBase": "Wolf",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"fight_as_owner\"><field name=\"condition\">null,null</field><next><block type=\"attack_fly\"><field name=\"radius\">16</field><field name=\"speed\">2</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1.2</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:DarkFiber</field></block></value></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": true,
+    "breedTriggerItems": [
+      {
+        "value": "CUSTOM:DarkFiber"
+      }
+    ],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": "Items.SNOWBALL"
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DarkPlains"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

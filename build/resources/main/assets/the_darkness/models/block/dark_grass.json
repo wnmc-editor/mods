@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "the_darkness:blocks/darkdirt",
+    "top": "the_darkness:blocks/darkgrasstop",
+    "side": "the_darkness:blocks/darkgrassside",
+    "overlay": "the_darkness:blocks/darkgrassside",
+    "particle": "the_darkness:blocks/darkdirt"
+  },
+  "render_type": "cutout_mipped"
+}

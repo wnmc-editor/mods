@@ -30,8 +30,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.thedarkness.init.TheDarknessModItems;
+import net.mcreator.thedarkness.init.TheDarknessModEntities;
 import net.mcreator.thedarkness.init.TheDarknessModBlocks;
 import net.mcreator.thedarkness.init.TheDarknessModBlockEntities;
+import net.mcreator.thedarkness.init.TheDarknessModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -52,9 +54,10 @@ public class TheDarknessMod {
 
 		TheDarknessModBlocks.REGISTRY.register(bus);
 		TheDarknessModItems.REGISTRY.register(bus);
-
+		TheDarknessModEntities.REGISTRY.register(bus);
 		TheDarknessModBlockEntities.REGISTRY.register(bus);
 
+		TheDarknessModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

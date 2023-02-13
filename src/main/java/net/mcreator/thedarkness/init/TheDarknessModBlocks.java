@@ -10,6 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.thedarkness.block.TheDarknessPortalBlock;
+import net.mcreator.thedarkness.block.DarkGrassBlock;
 import net.mcreator.thedarkness.block.DarkFiberstage4Block;
 import net.mcreator.thedarkness.block.DarkFiberstage3Block;
 import net.mcreator.thedarkness.block.DarkFiberstage2Block;
@@ -30,4 +32,6 @@ public class TheDarknessModBlocks {
 	public static final RegistryObject<Block> DARK_FIBERSTAGE_4 = REGISTRY.register("dark_fiberstage_4", () -> new DarkFiberstage4Block());
 	public static final RegistryObject<Block> DARK_FARMLAND = REGISTRY.register("dark_farmland", () -> new DarkFarmlandBlock());
 	public static final RegistryObject<Block> DARK_FARMLAND_WET = REGISTRY.register("dark_farmland_wet", () -> new DarkFarmlandWetBlock());
+	public static final RegistryObject<Block> DARK_GRASS = REGISTRY.register("dark_grass", () -> new DarkGrassBlock());
+	public static final RegistryObject<Block> THE_DARKNESS_PORTAL = REGISTRY.register("the_darkness_portal", () -> new TheDarknessPortalBlock());
 }

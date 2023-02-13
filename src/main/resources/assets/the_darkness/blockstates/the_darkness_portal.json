@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "the_darkness:block/the_darkness_portal_ew"
+    },
+    "axis=x": {
+      "model": "the_darkness:block/the_darkness_portal_ns"
+    }
+  }
+}

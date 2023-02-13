@@ -3,10 +3,16 @@
   "block.the_darkness.dark_fiberstage_2": "Dark Fiber",
   "block.the_darkness.dark_farmland": "Dark Farmland",
   "block.the_darkness.dark_fiberstage_4": "Dark Fiber",
+  "item.the_darkness.the_darkness": "The Darkness Portal Igniter",
   "block.the_darkness.dark_fiberstage_1": "Dark Fiber",
+  "block.the_darkness.dark_grass": "Dark Grass",
+  "item.the_darkness.dark_sprite_spawn_egg": "Dark Sprite Spawn Egg",
   "block.the_darkness.dark_fiberstage_0": "Dark Fiber",
-  "block.the_darkness.dark_farmland_wet": "Dark Farmland Wet",
-  "block.the_darkness.dark_dirt": "Dark Dirt",
+  "item.the_darkness.flint_and_quartz": "Flint And Quartz",
+  "biome.the_darkness.dark_plains": "Dark Plains",
+  "entity.the_darkness.dark_sprite": "Dark Sprite",
   "item.the_darkness.dark_fiber_seeds": "Dark Fiber Seeds",
+  "block.the_darkness.dark_dirt": "Dark Dirt",
+  "block.the_darkness.dark_farmland_wet": "Dark Farmland Wet",
   "item.the_darkness.dark_fiber": "Dark Fiber"
 }

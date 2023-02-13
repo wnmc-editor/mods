@@ -1,0 +1,16 @@
+{
+  "group": "modded",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "the_darkness:flint_and_quartz",
+    "count": 1
+  }
+}

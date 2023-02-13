@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "the_darkness:dark_plains",
+  "spawners": {
+    "type": "the_darkness:dark_sprite",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}
